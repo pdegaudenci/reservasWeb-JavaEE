@@ -1,6 +1,5 @@
 
-## Aplicacion web BETA basada en servlets para realizar gestion interna de Empleados, habitaciones y reservas,
-   usando la especificacion JPA para persistencia de datos y el patron de diseño MVC. 
+## Aplicacion web BETA basada en servlets para realizar gestion interna de Empleados, habitaciones y reservas,   usando la especificacion JPA para persistencia de datos y el patron de diseño MVC. 
 
 ## Entorno de prueba:
 	
