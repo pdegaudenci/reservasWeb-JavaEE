@@ -1,0 +1,71 @@
+body{
+    
+    background-image: url('fondoSecundario.jpg');
+    background-repeat: repeat;    
+    z-index: 1;
+}
+
+nav ul{
+    display:flex;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    border: 2px solid rgb(90, 85, 85);
+    border-radius: 65px 65px 65px 65px;
+    margin:0;
+    padding:0;
+
+
+}
+ul{
+      list-style-type: none;
+}
+
+nav ul li {
+    flex:1;
+    background-color: blue;
+    color: black;
+    letter-spacing: 0.2px;
+    border: 2px solid white;
+    border-radius: 50px 50px 50px 50px;
+    margin:40px;
+    text-align:center;
+    position:relative;
+
+
+}
+
+
+nav ul  a {
+   
+    color: white;
+    line-height: 250%;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: 900;
+
+}
+
+nav ul li:hover {
+
+    font-size: 1.1em;
+    background-color: rgb(229, 255, 0);
+
+}
+
+nav ul  li ul{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+   
+  }
+  nav ul li:hover > ul {
+    display:inline-block;
+    position:absolute;
+    width:90%;
+    opacity:1.0;
+ 
+  }
+

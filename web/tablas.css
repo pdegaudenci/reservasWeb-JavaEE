@@ -1,0 +1,64 @@
+
+tr:first-child {
+    background-color: skyblue;
+    color: black;
+}
+
+td:nth-child(1) {
+    background-color: grey;
+    color: white;
+    
+    border: 1px solid white;
+    width: auto;
+ 
+    font-weight: bolder;
+    font-family:Arial;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    opacity:0.9;
+    position: relative;
+}
+
+table {
+ 
+    border-collapse: collapse;
+    border: 6px dotted yellow;
+    height: 60%;
+    font-family: Arial;
+    position:absolute;
+    left:10%;
+    top: 150px;
+   
+
+}
+
+caption{
+    color:white;
+    font-size:4em;
+    font-family:"Brush Script MT",cambria;
+    text-decoration:underline;
+}
+
+th {
+    border: 2px solid white;
+    width: auto;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px;
+}
+
+td {
+    background-color: lightgrey;
+    border: 4px double black;
+    text-align: center;
+    padding: auto;
+    width:auto;
+}
+
+
+
+
