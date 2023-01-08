@@ -88,7 +88,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * Sistema Gestor de base de datos relacionales MySQL : Gestion de operaciones de datos de negocio
 * Servidor web TOMCAT : Despliegue de la aplicacion a nivel local
 * Java EE : Lenguaje utilizado del lado del servidor para gestionar las peticiones recibidas del lado del cliente
-* Servlets: 
+* Servlets: Para construir la logica de los controladores del servidor que recibirán las peticiones HTTP del cliente a traves de HttpServletRequest y  HttpServletResponse
 * JSP : Para ejecutar codigo Java del lado del Cliente
 * HTML && CSS : Estructura,contenido y estilos de la interfaz web 
 
