@@ -83,9 +83,14 @@ _Funcionalidades generales de la aplicacion:_
 * Ejecutar un servidor Web MySQL en el puerto 3306.
 * Tener instalado el JRE (que incluye la JVM) en el host donde se desplegará la aplicación.
 * Una vez , estando en la carpeta raíz del proyecto, generar el archivo .jar (Java archive) a ser desplegado en la JVM:
-_Abrir la terminal y ejecutar los siguientes comandos:_
+* _Abrir la terminal y ejecutar los siguientes comandos:_
+* _Compilar:
 ``` javac ReservasControlador.java ```
+* _Generación del archivo .jar:_
 ```jar cf ReservasControlador.jar ReservasControlador.class ```
+* _Mover el archivo ReservasControlador.jar a  la carpeta <b>webapps/</b> de la carpeta de instalción del Servidor Apache Tomcat_
+
+*_Ejecución:_
 ``` java -jar ReservasControlador.jar```
 
 ## Construido con 🛠️
