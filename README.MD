@@ -6,7 +6,7 @@ _ El desarrollo de la aplicación Cliente-Servidor esta basada en el uso de los 
 
 _El cliente es una interfaz web , construida visualmente con  HTML y CSS. En la interfaz también due utilizado JSP (Java Server Page) para ejecutar la logica de ciertas operaciones de visualizacón de datos recibida por el servidor._
 
-_El backend fue desarrollado con Java , version EE y desplegado en un servidor web Apache TOMCAT. Para la capa de acceso a datos , se implementó la especificacíon JPA para la gestión de operacionesde persistencia de datos con el conector/driver JDBC para la conexión con el motor de BBDD utilizado (MySQL)._
+_El backend fue desarrollado con Java , version EE y desplegado en un servidor web Apache TOMCAT. Para la capa de acceso a datos , se desarrollaron controladores que implementan la especificacíon JPA (Java Persistence API) , los cualos constituyen el ORM (Object Relationship Mapping) para la gestión de operaciones de persistencia de datos,y , usando el conector/driver JDBC para la conexión con el motor de BBDD utilizado (MySQL)._
 
 
 ## Comenzando 🚀
@@ -92,6 +92,7 @@ _Agrega notas adicionales sobre como hacer deploy_
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * Herramienta XAMPP
+* JPA (Java Persistence API) :  ORM que contiene los mecanismos para gestionar la persistencia y la correlación relacional de objetos  con entidades de la BBDD relacional. 
 * Sistema Gestor de base de datos relacionales MySQL : Gestion de operaciones de datos de negocio
 * Servidor web TOMCAT : Despliegue de la aplicacion a nivel local
 * Java EE : Lenguaje utilizado del lado del servidor para gestionar las peticiones recibidas del lado del cliente
