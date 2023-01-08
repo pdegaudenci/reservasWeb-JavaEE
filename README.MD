@@ -2,7 +2,7 @@
 
 _Aplicacion FullStack BETA con una interfaz web realizar gestion interna de Empleados, habitaciones y reservas por parte de empleados autorizados de un hotel._
 
-_ El desarrollo de la aplicación Cliente-Servidor esta basada en el uso de los Servlets de Java para la gestion de las requests recibidas y responses generadas desde/hacia el cliente. En el diseño de la solucion se ha seguido el patron MVC (Model-View-Controller). El modelo de datos define tres entidades u actores principales : usuarios /empleados , huespedes y habitaciones, montado sobre una logica de gestión de reservas hoteleras._
+_El desarrollo de la aplicación Cliente-Servidor esta basada en el uso de los Servlets de Java para la gestion de las requests recibidas y responses generadas desde/hacia el cliente. En el diseño de la solucion se ha seguido el patron MVC (Model-View-Controller). El modelo de datos define tres entidades u actores principales : usuarios /empleados , huespedes y habitaciones, montado sobre una logica de gestión de reservas hoteleras._
 
 _El cliente es una interfaz web , construida visualmente con  HTML y CSS. En la interfaz también due utilizado JSP (Java Server Page) para ejecutar la logica de ciertas operaciones de visualizacón de datos recibida por el servidor._
 
