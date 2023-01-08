@@ -1,4 +1,4 @@
-# Gestor de reservas interna
+# Gestor de reservas internas
 
 _Aplicacion web BETA basada en servlets para realizar gestion interna de Empleados, habitaciones y reservas,   usando la especificacion JPA para persistencia de datos y el patron de diseño MVC_
 __
@@ -6,7 +6,7 @@ __
 
 _Clonar el proyecto._
 
-""git clone""
+``` git clone https://github.com/pdegaudenci/reservasWeb-JavaEE.git ```
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
