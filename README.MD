@@ -15,6 +15,11 @@ _Clonar el proyecto._
 
 ``` git clone https://github.com/pdegaudenci/reservasWeb-JavaEE.git ```
 
+_Moverse a la ubicacíon del proyecto_
+
+``` cd  reservasWeb-JavaEE ```
+
+_Continuar en la sección de despliegue_
 
 ### Pre-requisitos 📋
 
@@ -34,17 +39,6 @@ _El proyecto tiene fue desarrollado con las siguientes librerias externas:_
 	javax.servlet-3.0
 	jcalendar-1.4
 ```
-
-### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
 
 
 ### Analisis funcional ⌨️
@@ -85,11 +79,18 @@ _Funcionalidades generales de la aplicacion:_
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+* Desplegar un servidor web donde ejecutar la aplicacion en el puerto 8080.
+* Ejecutar un servidor Web MySQL en el puerto 3306.
+* Tener instalado el JRE (que incluye la JVM) en el host donde se desplegará la aplicación.
+* Una vez , estando en la carpeta raíz del proyecto, generar el archivo .jar (Java archive) a ser desplegado en la JVM:
+_Abrir la terminal y ejecutar los siguientes comandos:_
+``` javac ReservasControlador.java ```
+```jar cf ReservasControlador.jar ReservasControlador.class ```
+``` java -jar ReservasControlador.jar```
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Tecnologías utilizadas en el desarrollo del proyecto_
 
 * Herramienta XAMPP
 * JPA (Java Persistence API) :  ORM que contiene los mecanismos para gestionar la persistencia y la correlación relacional de objetos  con entidades de la BBDD relacional. 
