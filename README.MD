@@ -1,4 +1,4 @@
-# Gestor de reservas internas
+# Gestor de reservas internas (JAVA EE/JPA/JDBC/MySQL)
 
 _Aplicacion FullStack BETA con una interfaz web realizar gestion interna de Empleados, habitaciones y reservas por parte de empleados autorizados de un hotel._
 
@@ -90,7 +90,7 @@ _Funcionalidades generales de la aplicacion:_
 ```jar cf ReservasControlador.jar ReservasControlador.class ```
 * _Mover el archivo ReservasControlador.jar a  la carpeta <b>webapps/</b> de la carpeta de instalción del Servidor Apache Tomcat_
 
-*_Ejecución:_
+* _Ejecución:_
 ``` java -jar ReservasControlador.jar```
 
 ## Construido con 🛠️
